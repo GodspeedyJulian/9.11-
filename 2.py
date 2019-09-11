@@ -6,8 +6,6 @@ for i in range(len(UserID)):
         UpperCaseLetters += 1
     elif 48 <= ord(UserID[i]) <= 57:
         Digits += 1
-    else:
-        continue
 if len(UserID)!=7 or UpperCaseLetters != 3 or Digits != 4:
     print("not valid")
 else:
